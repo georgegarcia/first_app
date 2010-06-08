@@ -1,0 +1,229 @@
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-06-01 21:36:11) [GET]
+  [4;36;1mSQL (2.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 173ms (View: 22, DB: 2) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-01 22:23:12) [GET]
+
+ActionController::RoutingError (No route matches "/greetings/index" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-01 22:23:35) [GET]
+
+ActionController::RoutingError (No route matches "/greetings/index.rhtml" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-01 22:23:39) [GET]
+
+ActionController::RoutingError (No route matches "/greetings/index.rhtml" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-01 22:24:34) [GET]
+
+ActionController::RoutingError (No route matches "/greetings" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-01 22:24:39) [GET]
+
+ActionController::RoutingError (No route matches "/greetings" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-06-01 22:26:07) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 137ms (View: 20, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 22:26:50) [GET]
+
+NoMethodError (undefined method `render_text' for #<GreetingController:0x4e44640>):
+  app/controllers/greeting_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (97.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 22:36:32) [GET]
+
+NoMethodError (undefined method `render_text' for #<GreetingController:0x415e760>):
+  app/controllers/greeting_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (67.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 22:42:39) [GET]
+
+ActionView::MissingTemplate (Missing template greeting/index.erb in view path app/views):
+  app/controllers/greeting_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 22:44:58) [GET]
+
+NoMethodError (undefined method `render_text' for #<GreetingController:0x41846a0>):
+  app/controllers/greeting_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (66.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 22:45:35) [GET]
+
+NoMethodError (undefined method `render_text' for #<GreetingController:0x50a9340>):
+  app/controllers/greeting_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (111.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 22:45:43) [GET]
+
+NoMethodError (undefined method `render_text' for #<GreetingController:0x4f4a800>):
+  app/controllers/greeting_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (89.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 22:46:02) [GET]
+
+NoMethodError (undefined method `render_text' for #<GreetingController:0x40f47c0>):
+  app/controllers/greeting_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (75.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 22:46:10) [GET]
+
+NoMethodError (undefined method `render_text' for #<GreetingController:0x3d9f060>):
+  app/controllers/greeting_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (137.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 22:46:15) [GET]
+
+NoMethodError (undefined method `render_text' for #<GreetingController:0x5151960>):
+  app/controllers/greeting_controller.rb:3:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (95.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-01 22:59:41) [GET]
+
+ActionController::RoutingError (No route matches "/greeting/index.rhtml" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 22:59:52) [GET]
+Rendering greeting/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/greeting]
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 23:14:28) [GET]
+Rendering greeting/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/greeting]
+
+
+Processing GreetingController#index (for 127.0.0.1 at 2010-06-01 23:41:06) [GET]
+Rendering greeting/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/greeting]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-06-07 20:43:53) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 157ms (View: 20, DB: 1) | 200 OK [http://localhost/rails/info/properties]
